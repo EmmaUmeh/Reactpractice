@@ -4,7 +4,7 @@ import FunctionList from "./Components/FunctionList";
 import EffectSign from "./Components/EffectSign";
 import EventCleanup from "./Components/EventCleanup"
 import Clock from "./Components/Clock";
-
+import PhotoList from "./Components/PhotoList"
 // import Navmenu from "./Components/Navmenu.jsx";
 // import HomePage from "./Components/HomePage.jsx";
 
@@ -25,6 +25,7 @@ function App() {
       <EffectSign />
       <EventCleanup />
       <Clock />
+      <PhotoList />
         {/* <ParentComp /> */}
         <div>
       
