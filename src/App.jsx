@@ -5,6 +5,9 @@ import EffectSign from "./Components/EffectSign";
 import EventCleanup from "./Components/EventCleanup"
 import Clock from "./Components/Clock";
 import PhotoList from "./Components/PhotoList"
+import Listphoto from "./Components/Listphoto";
+import ListDev from "./Components/ListDev";
+import ListWithrender from "./Components/ListWithrender";
 // import Navmenu from "./Components/Navmenu.jsx";
 // import HomePage from "./Components/HomePage.jsx";
 
@@ -26,6 +29,9 @@ function App() {
       <EventCleanup />
       <Clock />
       <PhotoList />
+      <Listphoto />
+      <ListDev />
+      <ListWithrender/>
         {/* <ParentComp /> */}
         <div>
       
