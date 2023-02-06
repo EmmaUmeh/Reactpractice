@@ -1,7 +1,7 @@
 import React,{ useState,useEffect } from "react";
 
 
-const baseUrl = 'http://localhost:3000';
+const baseUrl = 'http://localhost:3000/photos?_page=1&_limit=100';
 const url = `${baseUrl}/photos`;
 
 function translateStatusToErrorMessage(status) {
